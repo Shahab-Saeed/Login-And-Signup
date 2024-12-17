@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    font-size: 18px;
+    /* border: none; */
+    border: 0;
+    color: #fff;
+    outline: 0;
+}
+
+
+
+::placeholder{
+    color: #fff;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:  #3e4444;
+
+}
+
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 700px;
+}
+
+.text {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.name{
+    display: flex;
+    flex-direction: row;
+}
+
+.name input {
+    padding: 10px 20px;
+    width: 210px;
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    background: #92a8d1;
+}
+
+.email label {
+    margin-right: 40px;
+}
+
+.email input {
+    /* width: 100%; */
+    background: #92a8d1;
+}
+
+.signup input {
+    padding: 10px 20px;
+    width: 210px;
+    border-radius: 5px;
+    /* margin-right: 20px; */
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.signup .pass label {
+    margin-right: 6px;
+}
+.passbox input{
+    padding: 10px 20px;
+    width: 210px;
+    border-radius: 5px;
+    /* margin-right: 20px; */
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    background-color: #92a8d1;
+}
+
+.pass {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.passbox{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 0;
+    outline: 0;
+    
+}
+
+.passimg{
+    position: relative;
+}
+.passbox img{
+    height: 30px;
+    position: absolute;
+    right: 5px;
+    top: -4px;
+  
+}
+.passbox input{
+    width: 210px;
+    margin-left: 12px;
+}
+.signup-btn {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.signup-btn button {
+    padding: 10px 30px;
+    border-radius: 30px;
+    background: #034f84;
+    margin-top: 30px;
+    
+}
+
+.signup-btn button a {
+    text-decoration: none;
+    background: #034f84;
+    color: #fff;
+}
+
+.signup-container label {
+    cursor: pointer;
+}
+
+@media screen and (max-width:730px) {
+    .name{
+        flex-direction: column;
+    }
+    .fname{
+        margin-bottom: -20px;
+    }
+
+    .email{
+        margin-top: -15px;
+    }
+
+    .pass{
+        margin-top: -5px;
+    }
+
+    .text{
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* .signup-btn {
+        justify-content: ;
+    } */
+}
